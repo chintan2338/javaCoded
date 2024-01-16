@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ExceptionHandling&apos; to &apos;16_ExceptionHandling&apos;" description="Rename resource &apos;ExceptionHandling&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ExceptionHandling" name="16_ExceptionHandling" stamp="1698495200218" updateReferences="true"/>
+</session>

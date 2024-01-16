@@ -1,0 +1,70 @@
+//More On HashMap
+import java.util.*;
+import java.util.Map.*;
+class Student
+{
+	String name;
+	int age;
+	String city;
+	public Student(String name,int age,String city)
+	{
+		this.name=name;
+		this.age=age;
+		this.city=city;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public void setAge(int age)
+	{
+		this.age=age;
+	}
+	public int getAge(int age)
+	{
+		return age;
+	}
+	public void setCity(String city)
+	{
+		this.city=city;
+	}
+	public String getCity()
+	{
+		return city;
+	}
+	public String toString()
+	{
+		return name+" "+age+" "+city;
+	}
+}
+public class Map4 {
+
+	public static void main(String[] args)
+	{
+		Student st1=new Student("Rohan",18,"Bengaluru");
+		Student st2=new Student("Rohit",19,"Delhi");
+		Student st3=new Student("Ramesh",22,"Mysuru");
+
+		Map map = new HashMap();
+		
+		map.put(1,st1);
+		map.put(2,st2);
+		map.put(3,st3);
+		System.out.println(map);
+		
+		Set set = map.entrySet();
+		Iterator itr=set.iterator();
+		
+		while(itr.hasNext())
+		{
+			//System.out.println(itr.next());
+			Map.Entry data=(Entry)itr.next();
+			System.out.println(data.getKey()+":"+data.getValue());
+		}
+	}
+
+}

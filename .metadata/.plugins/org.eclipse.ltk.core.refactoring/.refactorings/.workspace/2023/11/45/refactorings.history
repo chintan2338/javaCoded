@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CollectionFramework&apos; to &apos;18_CollectionFramework&apos;" description="Rename resource &apos;CollectionFramework&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CollectionFramework" name="18_CollectionFramework" stamp="1699184930298" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Map and Generics&apos; to &apos;19_Map and Generics&apos;" description="Rename resource &apos;Map and Generics&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Map and Generics" name="19_Map and Generics" stamp="1699326327125" updateReferences="true"/>
+</session>
