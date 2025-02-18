@@ -7,9 +7,9 @@ public class Relational {
 		//int c=20;
 		
 		boolean result = a>=b;
-		System.out.println(result);
+		System.out.println(result);//true
 		
-		//System.out.println(a<b);
+		System.out.println(a<b);//false
 	}
 
 }

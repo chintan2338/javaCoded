@@ -1,4 +1,5 @@
 //More on inheritance
+/*
 class Human1
 {
 	private String name;
@@ -38,4 +39,5 @@ public class Inheritance2 {
 	}
 
 }
+*/
 //private member of the class & constructor can not participate in inheritance.

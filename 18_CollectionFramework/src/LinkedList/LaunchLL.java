@@ -11,11 +11,14 @@ public class LaunchLL {
 		ll1.add(300);
 		ll1.add(300);
 		//System.out.println(ll1.get(1));  //correct
+		System.out.println(ll1.indexOf(100));
+		System.out.println(ll1.size());
+		//ll1.clear();
 		System.out.println(ll1);
 		
 		LinkedList ll2=new LinkedList();
 		ll2.add("Pwskill");
-		ll2.add('1');
+		ll2.add(1);
 		ll2.add('j');
 		System.out.println(ll2);
 		

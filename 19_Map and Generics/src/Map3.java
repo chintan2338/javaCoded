@@ -1,4 +1,5 @@
 //Accessing The Object in Map
+
 import java.util.*;
 import java.util.Map.*;
 public class Map3 {
@@ -6,14 +7,16 @@ public class Map3 {
 	public static void main(String[] args)
 	{
 		Map map=new HashMap();
-		map.put(1,"Rohan");
-		map.put(2,"Rohit");
-		map.put(3,"Rahul");
-		map.put(4,"Rames");
+		//put method key and value dono ko as a object store karata hai.
+		map.put(1,"Rohan");//Entry
+		map.put(2,"Rohit");//Entry
+		map.put(3,"Rahul");//Entry
+		map.put(4,"Rames");//Entry
 
 		System.out.println(map);
 		
 		System.out.println(map.get(4));
+		
 		Set keySet=map.keySet();//KeySet method return us keys only
 		Iterator itr1=keySet.iterator();
 		while(itr1.hasNext())
@@ -46,3 +49,4 @@ public class Map3 {
 	}
 
 }
+

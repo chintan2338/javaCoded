@@ -2,7 +2,7 @@
 public class Reverse1 {
 
 	public static void main(String[] args) {
-		String str1= "pwskill java ";
+		String str1= "pwskill java";
 		String str2 = "";
 		
 		String sarr[]=str1.split(" ");

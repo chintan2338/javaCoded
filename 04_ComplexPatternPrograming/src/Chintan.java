@@ -5,6 +5,7 @@ public class Chintan {
 		int n=10;
 		for(int i=0;i<n;i++)
 		{
+			//c
 			for(int j=0;j<n;j++)
 			{
 				if(i==0||j==0||i==n-1)
@@ -17,6 +18,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//H
 			for(int j=0;j<n;j++)
 			{
 				if(j==0||j==n-1||i==(n-1)/2)
@@ -29,6 +31,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//I
 			for(int j=0;j<n;j++)
 			{
 				if(i==0||i==n-1||j==(n-1)/2)
@@ -41,6 +44,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//N
 			for(int j=0;j<n;j++)
 			{
 				if(j==0||j==n-1||i==j)
@@ -53,6 +57,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//T
 			for(int j=0;j<n;j++)
 			{
 				if(i==0||j==(n-1)/2)
@@ -65,6 +70,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//A
 			for(int j=0;j<n;j++)
 			{
 				if(j==0&&i>0||j==n-1&&i>0||i==(n-1)/2||i==0&&j>0&&j<n-1)
@@ -77,6 +83,7 @@ public class Chintan {
 				}
 			}
 			System.out.print("      ");
+			//N
 			for(int j=0;j<n;j++)
 			{
 				if(j==0||j==n-1||i==j)

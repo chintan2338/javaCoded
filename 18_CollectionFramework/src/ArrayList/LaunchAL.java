@@ -13,7 +13,7 @@ public class LaunchAL {
 		al1.add(300);
 		al1.add(100);
 		System.out.println(al1);
-
+		
 		System.out.println("***************************");
 		ArrayList al2=new ArrayList();
 		
@@ -37,7 +37,7 @@ public class LaunchAL {
 		System.out.println(al3);
 		
 		System.out.println("After adding collection");
-		al3.add(al2);
+		al3.addAll(al2);
 		
 		System.out.println(al3);
 		

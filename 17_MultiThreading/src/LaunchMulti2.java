@@ -1,4 +1,23 @@
 //Main thread in java
+
+/*
+public class LaunchMulti2 {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Thread");
+		String name = Thread.currentThread().getName();
+		System.out.println("The name of current thread is "+name);
+		System.out.println("the priority of main thread is "+Thread.currentThread().getPriority());	
+		System.out.println("Thread " + Thread.currentThread().getId()+ " is running");
+	}
+
+}
+*/
+
+//OR
+
+/*
 public class LaunchMulti2 {
 
 	public static void main(String[] args) 
@@ -20,4 +39,4 @@ public class LaunchMulti2 {
 	}
 
 }
-
+*/

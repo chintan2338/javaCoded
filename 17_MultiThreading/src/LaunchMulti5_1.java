@@ -1,5 +1,5 @@
 //Extends Thread vs implement Runnable And Limitation Of Invocking Run() Explicitly.
-
+/*
 import java.util.Scanner;
 
 class Demo
@@ -73,3 +73,4 @@ public class LaunchMulti5_1 {
 	}
 
 }
+*/

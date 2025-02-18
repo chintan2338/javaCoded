@@ -1,4 +1,4 @@
-//interface implements
+//3.interface implements
 /*
 interface A
 {
@@ -50,7 +50,7 @@ public class Demo1 {
 	public static void main(String[] args) {
 //		A obj=new B();
 //		obj.show();
-//		//obj.abc();-->error
+//		obj.abc();//-->error
 		
 		B obj=new B();
 		obj.show();
@@ -85,11 +85,15 @@ public class Demo1 {
 	public static void main(String[] args) {
 //		A obj=new B();
 //		obj.show();
-//		//obj.abc();-->error
+//		//obj.abc();//-->error
 		
 		B obj=new B();
 		obj.show();
 		obj.abc();
+		
+		x obj1= new B();//jate lakhu che.
+		obj1.show();//jate lakhu che.
+		obj1.abc();//jate lakhu che.
 	}
 
 }

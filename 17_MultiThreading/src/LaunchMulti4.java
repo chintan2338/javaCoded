@@ -1,4 +1,4 @@
-//More on creating Multiple Threads.//creating thread by Extending Thread class.
+//6.More on creating Multiple Threads.//creating thread by Extending Thread class.
 import java.util.Scanner;
 
 
@@ -52,9 +52,9 @@ public class LaunchMulti4 {
 	{
 		System.out.println("Main Thread Started");
 		
-		Calc t1=new Calc();
+		Calc t1=new Calc();//ye Calc ka object equvilent hai Thread ke object ke barabar
 		
-		Message t2=new Message();
+		Message t2=new Message();//ye Message ka object equvilent hai Thread ke object ke barabar
 		
 		t1.start();
 		t2.start();

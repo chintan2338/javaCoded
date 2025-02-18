@@ -50,7 +50,7 @@ public class FinalK
 
 //OR
 
-
+/*
 class Animal1
 {
 	final int age=19;
@@ -75,4 +75,4 @@ public class FinalK
 		t.sleep();
 	}
 }
-
+*/

@@ -66,8 +66,8 @@ public class LaunchMulti8 {
 		
 		Thread t1=new Thread(p);
 		System.out.println(t1.isAlive());//Thread ko life mili hai ya nahi vo check karane ke liye.
-		t1.start();
-		System.out.println(t1.isAlive());
+		t1.start();//thread ko life tab milati hai jab aap t1.start() method ko call karake use thread sheduler ke pass register karate hai.
+		System.out.println(t1.isAlive());//true
 		t1.join();
 
 		System.out.println("Main Thread Finished the work");

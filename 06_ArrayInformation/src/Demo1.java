@@ -1,4 +1,4 @@
-/*
+
 public class Demo1 {
 
 	public static void main(String[] args) {
@@ -15,25 +15,26 @@ public class Demo1 {
 
 	}
 
-}*/
+}
 
 //OR (array મા જાતે user input આપશે.)
-//import java.util.Scanner;
-//public class Demo1{
-//	public static void main(String []args)
-//	{
-//		Scanner scan = new Scanner(System.in);
-//		int nums[]= new int [4];
-//		//System.out.println("Enter the element");
-//		for(int i=0;i<4;i++)
-//		{
-//			nums[i]=scan.nextInt();
-//		}
-//		//System.out.println("result");
-//		for(int i=0;i<4;i++)
-//		{
-//			System.out.println(nums[i]);
-//		}
-//
-//	}
-//}
+/*
+import java.util.Scanner;
+public class Demo1{
+	public static void main(String []args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int nums[]= new int [4];
+		//System.out.println("Enter the element");
+		for(int i=0;i<4;i++)
+		{
+			nums[i]=scan.nextInt();
+		}
+		//System.out.println("result");
+		for(int i=0;i<4;i++)
+		{
+			System.out.println(nums[i]);
+		}
+
+	}
+}*/

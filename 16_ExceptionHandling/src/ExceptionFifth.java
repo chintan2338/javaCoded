@@ -43,7 +43,7 @@ public class ExceptionFifth {
 			{
 				//Exception e=new Exception();//or Exception e=new Exception("negative nubmer");
 				
-				Exception e=new ArithmeticException("negative number");//Exception e=new ArithmeticException();
+				Exception e = new ArithmeticException("negative number");//Exception e=new ArithmeticException();
 				throw e;
 			}
 			else
@@ -58,8 +58,8 @@ public class ExceptionFifth {
 		}
 	}
 
-}*/
-
+}
+*/
 
 //custom exception 
 /*
@@ -132,9 +132,8 @@ public class ExceptionFifth {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Enter a valid number"+e);
+			System.out.println("Enter a valid number "+e);
 		}
 	}
 
-}
-*/
+}*/

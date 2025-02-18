@@ -1,18 +1,19 @@
 //Enhanced for loop for Normal Array
-//public class Demo5 {
-//
-//	public static void main(String[] args) {
-//		
-//
-//		int nums[]= {5,4,7,8};
-//		
-//		for(int n:nums)
-//		{
-//			System.out.println(n);
-//		}
-//	}
-//
-//}
+/*
+public class Demo5 {
+
+	public static void main(String[] args) {
+		
+
+		int nums[]= {5,4,7,8};
+		
+		for(int n:nums)
+		{
+			System.out.println(n);
+		}
+	}
+
+}*/
 
 //Enhanced for loop for 2D Array
 /*
@@ -38,6 +39,7 @@ public class Demo5 {
 
 }
 */
+
 //Enhanced for loop for jagged Array
 /*
 public class Demo5 {

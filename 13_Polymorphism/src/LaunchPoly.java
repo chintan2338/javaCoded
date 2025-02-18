@@ -53,7 +53,7 @@ public class LaunchPoly
 
 //OR
 
-
+/*
 class AeroPlane1
 {
     public void takeOff()
@@ -119,7 +119,8 @@ public class LaunchPoly
 //        ref.takeOff();
 //        ref.fly();
 //
-//       // pp=cp;
+//       // pp=cp; //Invalid 
     }
     
 }
+*/

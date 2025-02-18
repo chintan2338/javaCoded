@@ -5,7 +5,7 @@ public class Demo8 {
 	public static void main(String[] args) {
 		
 		int nums[]= {5,3,7,6};
-		//System.out.println(nums[4]); -->error
+		//System.out.println(nums[4]); -->error(because Array limit is 0 to 3 index )
 		System.out.println(nums[nums.length-1]);
 		System.out.println("Bye");
 

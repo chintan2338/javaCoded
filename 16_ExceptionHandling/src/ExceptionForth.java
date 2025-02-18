@@ -1,7 +1,7 @@
 //handling vs ducking the Exception 
 
 //exception handle by b method 
-
+/*
 class Demo
 {
 	public void a()
@@ -33,7 +33,7 @@ public class ExceptionForth {
 	}
 
 }
-
+*/
 
 //b bolega meto bhai handle nahi karane wala exception ko.
 // jo method b ko call kar raha hai use hi exception handle karane ke liye bhej rahe hai.

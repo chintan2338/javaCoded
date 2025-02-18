@@ -26,7 +26,7 @@ public class LaunchITR {
 //		{
 //			System.out.println(o);
 //		}
-		
+
 		//Iterator or cursor
 		
 		Iterator itr=al.iterator();
@@ -48,13 +48,15 @@ public class LaunchITR {
 		
 		
 		
-//		ListIterator litr1=al.listIterator();
-//		while(litr.hasNext())
-//		{
-//			System.out.println(litr.next());
-//			
-//		}
+		ListIterator litr1=al.listIterator();
+		while(litr.hasNext())
+		{
+			System.out.println(litr.next());
+			
+		}
 		
 	}
 
 }
+//Index based Access jahape Allow nahi (ArrayDequeue,PriorityQueue,TreeSet) hai wahape ham for loop use karake information 
+//fatch nahi kar sakate isiliye hame Iterator and ListIterator ka concepte aata hai ?

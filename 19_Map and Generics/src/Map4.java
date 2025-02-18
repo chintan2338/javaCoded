@@ -3,39 +3,32 @@ import java.util.*;
 import java.util.Map.*;
 class Student
 {
-	String name;
-	int age;
-	String city;
+	private String name;
+	private int age;
+	private String city;
+	
 	public Student(String name,int age,String city)
 	{
 		this.name=name;
 		this.age=age;
 		this.city=city;
 	}
-	public void setName(String name)
-	{
-		this.name=name;
-	}
+
 	public String getName()
 	{
 		return name;
 	}
-	public void setAge(int age)
-	{
-		this.age=age;
-	}
+
 	public int getAge(int age)
 	{
 		return age;
 	}
-	public void setCity(String city)
-	{
-		this.city=city;
-	}
+
 	public String getCity()
 	{
 		return city;
 	}
+	
 	public String toString()
 	{
 		return name+" "+age+" "+city;

@@ -1,3 +1,4 @@
+//3
 //local variable ને હમેશા initilize કરવો પડે જો અહી આપણે int num એકલું જ લખીએ તો error આવશે. 
 public class TestSecond {
 	int a;
@@ -5,9 +6,6 @@ public class TestSecond {
 	public static void  main(String[] args) {
 	int num=9;
 	System.out.println(num);
-	
-	
-	
 	}
 
 }

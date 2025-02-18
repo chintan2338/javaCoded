@@ -1,4 +1,5 @@
 //More on Polymorphism
+/*
 class AeroPlane2
 {
     public void takeOff()
@@ -67,7 +68,7 @@ public class LaunchPoly1
 
     public static void main(String[] args) 
     {
-       CargoPlane2 cp=new CargoPlane2();
+        CargoPlane2 cp=new CargoPlane2();
         
         PassengerPlane2 pp=new PassengerPlane2();
 
@@ -90,3 +91,4 @@ public class LaunchPoly1
     }
     
 }
+*/

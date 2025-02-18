@@ -12,9 +12,10 @@ public class LaunchTS
 		ts.add(75);
 		ts.add(125);
 		ts.add(175);
+		//ts.add("pw"); //-> Not Allow
 		
 		System.out.println(ts);
-		//ts.add(100);//-->No Dublicate allow.
+		//ts.add(100);//-->No Dublicate allow.jo add karie to tene consider nahi kare.
 		//System.out.println(ts);
 		
 		System.out.println(ts.higher(50));//75
@@ -23,8 +24,8 @@ public class LaunchTS
 		System.out.println(ts.ceiling(40));//50
 		System.out.println(ts.floor(40));//25
 		
-		System.out.println(ts.ceiling(50));//50
-		System.out.println(ts.floor(50));//50
+		System.out.println(ts.ceiling(50));//50 ->wrong output 
+		System.out.println(ts.floor(50));//50	->wrong output
 		
 //		System.out.println(ts.higher(40));//50
 //		System.out.println(ts.lower(40));//25
@@ -40,5 +41,15 @@ public class LaunchTS
 		ts1.add(70);
 		
 		System.out.println(ts1);
+		
+		//MyExtra
+		TreeSet ts2 = new TreeSet();
+		ts2.add("pw");
+		ts2.add("skill");
+		ts2.add("college");
+		ts2.add("apple");
+		//alphabet se isaka order mainten hoga.
+		
+		System.out.println(ts2);
 	}
 }

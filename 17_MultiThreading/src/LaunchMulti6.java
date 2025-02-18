@@ -1,4 +1,6 @@
 //Multiple Task Within Single Run()
+//single run() method ko use karake bhi multi-threading kar sakate hai usaka examplel hai.
+
 import java.util.Scanner;
 
 class MyThread1 extends Thread

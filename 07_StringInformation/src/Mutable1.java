@@ -1,4 +1,5 @@
 //Introduction To Mutable String 
+/*
 public class Mutable1 {
 
 	public static void main(String[] args) {
@@ -11,4 +12,18 @@ public class Mutable1 {
 
 	}
 
-}
+}*/
+
+/*
+public class Mutable1 {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder("Virat");
+		System.out.println(sb);
+		sb.append("Kohali");
+		System.out.println(sb);
+
+	}
+
+}*/

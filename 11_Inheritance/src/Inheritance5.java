@@ -1,4 +1,5 @@
 //Type of method in inheritance (122)
+/*
 class AeroPlane
 {
     public void takeOff()
@@ -42,6 +43,6 @@ public class Inheritance5 {
         PassengerPlane pp = new PassengerPlane();
         pp.takeOff();
         pp.fly();
-
     }
 }
+*/

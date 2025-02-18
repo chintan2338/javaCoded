@@ -17,11 +17,11 @@ public class LaunchAL1 {
 		int index=al1.indexOf(300);
 		System.out.println(index);
 		
-		System.out.println(al1.size());
+		System.out.println(al1.size());//3
 		al1.ensureCapacity(10);
 		al1.trimToSize();
 		
-		System.out.println(al1.size());
+		System.out.println(al1.size());//3
 		
 		al1.clear();
 		System.out.println(al1);

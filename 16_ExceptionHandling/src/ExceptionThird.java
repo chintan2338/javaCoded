@@ -9,7 +9,7 @@ public class ExceptionThird {
 		int num=0;
 		Scanner sc = new Scanner(System.in);
 		
-		num=sc.nextInt();
+		num=sc.nextInt();//if we enter "navin" than comes error 
 		
 		System.out.println(num);
 
@@ -74,8 +74,8 @@ public class ExceptionThird {
 
 //OR
 
-//
-
+/*
+//જો આપણે finally block માત્ર resource close karawa માટે લખતા હોઇયે તો નીચે મુજબ લખવાથી automatically resource close થઈ જશે. 
 public class ExceptionThird {
 
 	public static void main(String[] args) 
@@ -91,4 +91,4 @@ public class ExceptionThird {
 		System.out.println(num);
 	}
 
-}
+}*/

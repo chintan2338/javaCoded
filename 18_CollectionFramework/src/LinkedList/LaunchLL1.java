@@ -30,10 +30,11 @@ public class LaunchLL1 {
 		System.out.println(ll1.pop());//[100, 200, 300, 300]
 
 		System.out.println(ll1);
+		
 	}
 
-}
-*/
+}*/
+
 //OR
 /*
 public class LaunchLL1 {
@@ -49,7 +50,7 @@ public class LaunchLL1 {
 		ll1.add(300);
 		
 		
-		//ll1.peek();//parent List which not contain peek method but Dequeue contain peek તેથી ArrayList લખવું વધારે યોગ્ય રહેશે.
+		//ll1.peek();//parent List which not contain peek method but Dequeue contain peek તેથી LinkedList લખવું વધારે યોગ્ય રહેશે.
 	}
 
 }

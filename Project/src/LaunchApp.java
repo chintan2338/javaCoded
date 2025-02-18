@@ -1,4 +1,5 @@
 //25th feb rivision.
+//polymorphism ni andar Abstration ane final keyword joya pasi aa project samjay
 import java.util.*;
 class Rectangle
 {

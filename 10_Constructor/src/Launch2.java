@@ -24,6 +24,7 @@ class Demo
 	{
 		System.out.println(a);
 		System.out.println(b);
+		//System.out.println("a="+a+" b="+b);
 	}
 }
 public class Launch2 {

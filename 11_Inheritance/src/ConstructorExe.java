@@ -20,7 +20,7 @@ class Demo2 extends Demo1
     int m,n;
     public Demo2()
     {
-        super();
+        super();//by default super() mehtod hoti hai is we can not define
         System.out.println("Child class Constructor");
     }
 
@@ -41,8 +41,8 @@ public class ConstructorExe
 
     }
     
-}
-*/
+}*/
+
 //OR
 
 /*
@@ -142,6 +142,7 @@ public class ConstructorExe
 
 
 //OR
+/*
 class Demo1
 {
     int a, b;
@@ -186,3 +187,4 @@ public class ConstructorExe
     
 }
 
+*/

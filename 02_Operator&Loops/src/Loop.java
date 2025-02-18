@@ -32,10 +32,10 @@
 //	{
 //		int j=0;
 //		do{
-//			System.out.println("do whiel Loop");
+//			System.out.println("do while Loop");
 //			j++;
 //		}
 //		while(j<5);
 //	}
 //}
-//
+

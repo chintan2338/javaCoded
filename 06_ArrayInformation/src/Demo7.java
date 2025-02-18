@@ -22,7 +22,7 @@ public class Demo7 {
 }
 */
 //OR
-
+/*
 class Calc
 {
 	public int add(int nums[])
@@ -47,9 +47,9 @@ public class Demo7 {
 	}
 
 }
-
+*/
 //OR(Anonymous Array).
-/*
+
 class Calc
 {
 	public int add(int nums[])
@@ -73,4 +73,6 @@ public class Demo7 {
 	}
 
 }
-*/
+
+//OR( anonymous multidimensional array)
+//new int[][] { {10, 20}, {30, 40, 50} };

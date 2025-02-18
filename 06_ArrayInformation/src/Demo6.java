@@ -5,7 +5,6 @@
 //		int nums[]= {5,4,7,8};
 //		System.out.println(nums.length);
 //	}
-//
 //}
 
 //length property for 2D Array

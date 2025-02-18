@@ -16,6 +16,7 @@ public class LaunchMulti1 {
 		int res=num1+num2;
 		System.out.println(res);
 		System.out.println("Calculation Task Ended");
+		
 		System.out.println("*************************************");
 		System.out.println("Printing * Task Started");
 		
@@ -26,6 +27,7 @@ public class LaunchMulti1 {
 		
 		System.out.println("Printing * Task Ended");
 		System.out.println("*************************************");
+		
 		System.out.println("Desplaying important message task");
 		for(int i=0;i<3;i++)
 		{

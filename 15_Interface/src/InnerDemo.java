@@ -1,4 +1,4 @@
-//inner - member,static and Anonymous
+//inner class - member,static and Anonymous
 /*
 class A
 {

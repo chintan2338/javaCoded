@@ -15,7 +15,6 @@ public class Sub
         System.out.println("the marks of student are as below");
         for(int i=0;i<ar.length;i++)
         {
-            
             System.out.print(ar[i]+" ");
         }
         

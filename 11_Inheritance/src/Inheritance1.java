@@ -1,4 +1,5 @@
 //Inheritance introduction
+/*
 class Human //Super class //Base class //Parent class
 {
 	int age;
@@ -11,7 +12,7 @@ class Human //Super class //Base class //Parent class
 	}
 	
 }
-class Student extends Human //Child class //sub class //derived class
+class Student extends Human //sub class //derived class //Child class 
 {
 	
 }
@@ -25,3 +26,4 @@ public class Inheritance1 {
 	}
 
 }
+*/

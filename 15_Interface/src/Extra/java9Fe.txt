@@ -1,0 +1,61 @@
+/*
+Q0From Java 9 onwards, interfaces can contain the following also:
+
+1>Static methods
+2>Private methods
+3>Private Static methods
+ChatGPT
+Yes, starting from Java 9, interfaces can contain more than just abstract method declarations. They can include the following types of methods:
+
+1]Static Methods:
+--------------
+•Interfaces can now have static methods, which are associated with the interface itself rather than with instances of the interface. These methods can be called using the interface name.
+
+interface MyInterface {
+    static void myStaticMethod() {
+        System.out.println("Static method in interface");
+    }
+}
+
+You can then call the static method like this:
+
+MyInterface.myStaticMethod();
+
+2]Private Methods:
+
+•Java 9 introduced the concept of private methods in interfaces. These methods can be used to break down complex logic into smaller, more manageable pieces without exposing them to the outside world.
+
+interface MyInterface {
+    default void myPublicMethod() {
+        // Some public logic
+        myPrivateMethod();
+    }
+
+    private void myPrivateMethod() {
+        System.out.println("Private method in interface");
+    }
+}
+The private method myPrivateMethod is only accessible within the interface.
+
+3]Private Static Methods:
+
+Similar to private instance methods, Java 9 also allows interfaces to have private static methods. These methods are useful for code organization and can be used by other methods within the same interface.
+
+interface MyInterface {
+    static void myPublicStaticMethod() {
+        // Some public static logic
+        myPrivateStaticMethod();
+    }
+
+    private static void myPrivateStaticMethod() {
+        System.out.println("Private static method in interface");
+    }
+}
+
+The private static method myPrivateStaticMethod is only accessible within the interface and can be used by other static methods defined in the same interface.
+
+These additions provide more flexibility and code organization capabilities when working with interfaces in Java.
+
+*/
+
+

@@ -1,4 +1,4 @@
-
+//1:52 
 class Demo1
 {
 	static int a;
@@ -44,3 +44,4 @@ public class Launch4 {
 
 }
 //Object creation વખતે initialization block execute થાય છે.
+//static variable & static block vo sabase pahele execute ho jate hai aur usaki memory bhi de di jati  hai.

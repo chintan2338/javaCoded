@@ -1,4 +1,4 @@
-//States Of Threads
+//10.States Of Threads
 class Demo1 implements Runnable
 {
 	public void run()

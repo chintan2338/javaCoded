@@ -1,5 +1,7 @@
 
 import java.util.*;
+//polymorphism ni andar Abstration ane final keyword joya pasi aa project samjay
+//polymorphism & Abstration & final keyword pasi
 abstract class Shape
 {
     float area;  //badhama avato hato aetale parent class ma ek vakhat lakhi didho.

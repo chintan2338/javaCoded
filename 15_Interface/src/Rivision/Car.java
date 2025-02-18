@@ -3,8 +3,10 @@ package Rivision;
 
 public class Car 
 {
+	
 	class Engine 
 	{
+		
 		void disp()
 		{
 			System.out.println("Inner class disp");

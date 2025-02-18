@@ -1,4 +1,5 @@
 //Rule to override method in child class
+/*
 class Animal
 {
 	public void eat()
@@ -16,7 +17,7 @@ class Tiger extends Animal
 	 {
 	     System.out.println("Tiger hunt and eat");
 	 }
-//	 protected int age(int x)
+//	 private void age(int x)
 //	 {
 //		 return 10;            //-->No Change visibility of access modifier
 //	 }
@@ -39,6 +40,8 @@ public class Inheritance6 {
 	}
 
 }
+*/
+
 
 //Rule to override method in child class
 /*class Animal

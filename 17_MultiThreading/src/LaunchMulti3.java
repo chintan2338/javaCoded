@@ -1,4 +1,4 @@
-//How To Create Thread
+//5.How To Create Thread
 class MyThread extends Thread{
 	
 	public void run()

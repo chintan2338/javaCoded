@@ -10,12 +10,12 @@
 //
 //}
 //or
-public class Test1{
-	public static void main(String[]args)
-	{
-		char c='a';
-		int n;
-		n=Character.getNumericValue(c);
-		System.out.println(n);
-	}
-}
+//public class Test1{
+//	public static void main(String[]args)
+//	{
+//		char c='a';
+//		int n;
+//		n=Character.getNumericValue(c);
+//		System.out.println(n);
+//	}
+//}

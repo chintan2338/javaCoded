@@ -2,7 +2,7 @@
 /*
 import java.util.*;
 
-class Calc1  implements Runnable
+class Calc1 implements Runnable
 {
 	public void run()
 	{

@@ -1,4 +1,4 @@
-
+/*
 class Student
 {
 	int age;
@@ -20,10 +20,11 @@ public class Demo {
 
 	}
 
-}
+}*/
 
 //OR
-/*class Student
+/*
+class Student
 {
 	private int age;
 	private String name;
@@ -167,8 +168,8 @@ public class Demo {
 		System.out.println(stud1Age);
 	}
 
-}*/
-
+}
+*/
 //OR
 /*
 class Student

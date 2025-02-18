@@ -1,4 +1,4 @@
-//Need Of Interface With Example
+//2.Need Of Interface With Example
 /*
 class Laptop
 {
@@ -184,6 +184,8 @@ public class Main {
 
 //OR
 /*
+//Apako pata hai ki ye Computer class me koi normal method nahi
+//hone wale to ham use interface bhi bana sakate hai.
 abstract class Computer 
 {
 	public abstract void compileCode();

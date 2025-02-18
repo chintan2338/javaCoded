@@ -1,4 +1,5 @@
-/*import java.util.Scanner;
+/*
+import java.util.Scanner;
 class Farmer{
 	
 	int pa;
@@ -38,16 +39,17 @@ public class LaunchFarmer {
 		f2.compute();
 		f2.disp();
 	}
-}
-*/
+}*/
+
+//OR
 
 import java.util.Scanner;
 class Farmer{
 	
-	int pa;
-	float td;
-	static float ri;
-	float si;
+	int pa;//principle amount
+	float td;//time duration
+	static float ri;//rate of interest
+	float si;//simple interest
 	
 	static 
 	{

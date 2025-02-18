@@ -8,7 +8,7 @@ public class LaunchHS {
 		hs.add(100);
 		hs.add(20);
 		hs.add(30);
-		hs.add(40);		
+		hs.add(40);	
 		System.out.println(hs);
 		
 		LinkedHashSet hs1=new LinkedHashSet();
@@ -17,7 +17,6 @@ public class LaunchHS {
 		hs1.add(30);
 		hs1.add(40);
 		System.out.println(hs1);
-
 	}
 
 }

@@ -45,3 +45,41 @@ public class Launch3 {
 
 }
 */
+
+//OR
+
+
+//EXTRA BY MY SELF
+/*
+class Student1 
+{
+	private float age;
+	
+	public Student1(int age)
+	{
+		this.age=age;
+	}
+	public Student1(float age)
+	{
+		this.age=age;
+	}
+	public void disp()
+	{
+		System.out.println(age);
+	}
+}
+public class Launch3 {
+
+	public static void main(String[] args) {
+		
+		
+		Student1 st1=new Student1(19);
+		st1.disp();
+		
+		Student1 st2=new Student1(56.4f);
+		st2.disp();
+
+	}
+
+}
+*/

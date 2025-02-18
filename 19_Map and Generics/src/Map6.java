@@ -77,11 +77,9 @@ public class Map6 {
 		System.out.println("Last line");
 	}
 
-}
-/*
+}*/
 
 //OR
-
 /*
 class Employ
 {

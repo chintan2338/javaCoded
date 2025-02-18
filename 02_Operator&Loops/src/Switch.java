@@ -3,7 +3,7 @@ public class Switch {
 
 	public static void main(String[] args) {
 		
-		int num=200;
+		int num=100;
 		
 		switch(num)
 		
